@@ -3,7 +3,7 @@ describe('add todo', function () {
 
   before (async function () {
     page = await browser.newPage();
-    await page.goto("http://127.0.0.1:7001");
+    await page.goto("http://127.0.0.1:7001/");
   });
 
   after (async function () {
